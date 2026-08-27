@@ -29,8 +29,12 @@ section {
     background-color: rgb(245, 241, 241);
 }
 
-#home {
+.home-section {
+    background-color: rgb(101, 182, 139);
+    border-radius: 100px;
     text-align: center;
+}
+
 }
 
 #home img {
@@ -51,10 +55,26 @@ h3 {
     color: #286530;
 }
 
-
+.sdg-section {
+    background-color:rgb(213, 213, 200) ;
+    border-radius: 100px;
+}
 /* Skills */
-li {
+.skill-section {
+    background-color:rgb(101, 182, 139) ;
+    border-radius:100px ;
     margin: 10px;
+}
+
+.project-section {
+    background-color: rgb(213, 213, 200);
+    border-radius: 100px;
+}
+
+.contact-section {
+    background-color: rgb(101, 182, 139);
+    border-radius: 100px;
+
 }
 
 
