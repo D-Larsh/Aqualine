@@ -31,14 +31,15 @@ section {
 
 .home-section {
     background-color: rgb(101, 182, 139);
-    border-radius: 100px;
+    border-radius: 30px;
     text-align: center;
 }
 
-#home img {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
+.home-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 h1 {
