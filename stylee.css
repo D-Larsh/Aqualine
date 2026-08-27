@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #08451e;
+}
+
+nav {
+    background-color: #014f07;
+    padding: 20px;
+}
+
+nav h2 {
+    color: rgb(247, 241, 241);
+}
+
+nav a {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(255, 21, 0);
+}
+
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(245, 241, 241);
+}
+
+#home {
+    text-align: center;
+}
+
+#home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #1e4e24;
+}
+
+h2 {
+    color: #1f4a24;
+}
+
+h3 {
+    color: #286530;
+}
+
+
+/* Skills */
+li {
+    margin: 10px;
+}
+
+
+@media 
+    (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+}
